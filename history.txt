@@ -1,0 +1,4 @@
+Transaction History:
+Sold 10 units of samsung (ID: 1001) for $100000.0
+
+Total Revenue: $100000.0
