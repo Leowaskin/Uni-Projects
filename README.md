@@ -1,18 +1,47 @@
-## Getting Started
+A simple yet effective Inventory Management System built using Java for managing products in a store-like environment. The system supports adding, updating, removing, and viewing product details directly from the command line interface. It’s designed as a university project to demonstrate file handling, object-oriented programming, and interface usage in Java.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🛠️ Technologies Used
 
-## Folder Structure
+Language: Java
+Concepts: OOP (Inheritance, Interfaces, Abstract Classes)
+Features: File handling for data persistence (no database)
+IDE: IntelliJ IDEA / Eclipse / any Java IDE
 
-The workspace contains two folders by default, where:
+🚀 How to Run
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Clone the repository or download the source code.
+Open the project in any Java IDE or compile via terminal.
+Run the Main.java file.
+Follow the prompts in the CLI to interact with the system.
+Requirements:
+Java 8 or higher installed
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+📋 Features
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Add new products to the inventory
+Update existing product details
+Delete products
+View full inventory
+Search products by name or ID
+Persist data between sessions using text file storage
 
-## Dependency Management
+🧱 Project Structure
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Product – Base class for all product types
+TV – Subclass of Product (updated version without screen size/resolution)
+Item – Interface implemented by all product types
+InventoryManager – Core logic for inventory operations
+Main – Entry point of the application
+
+👨‍💻 Developer
+
+Name: Barkath Baig Mirza
+University: Canadian University Dubai
+LinkedIn: linkedin.com/in/barkathbaig
+
+🌟 Future Improvements
+
+Add a GUI interface using JavaFX or Swing
+Migrate storage from text files to a SQL or NoSQL database
+Implement user authentication for admin access
+Add support for categories and product analytics
